@@ -1,0 +1,31 @@
+{
+  "name": "next_farming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.5.0",
+    "express-validator": "^7.1.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "os": "^0.1.2",
+    "parse-error": "^0.2.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "socket.io-client": "^4.5.0"
+  }
+}

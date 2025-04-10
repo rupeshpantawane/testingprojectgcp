@@ -1,0 +1,11 @@
+Next farmaing
+
+baseUrl
+http://167.71.224.152:8002/api/admin/
+
+concat Url
+login url 
+=>login
+
+concat login and baseUrl
+http://167.71.224.152:8002/api/admin/login

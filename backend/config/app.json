@@ -1,0 +1,44 @@
+{
+    "test": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "medxdev2022@gmail.com",
+        "BASE_URL": "http://localhost:8002",
+        "REQ_BASE_URL": "http://localhost:3000",
+        "IMAGE_RELATIVE_PATH": "storage/images",
+        "IMAGE_PATH": "http://localhost:8002/storage/images",
+        "PORT": 8000,
+        "FCM_SERVER_KEY": "AAAA3TCV3nU:APA91bGPGLRIOMZ2vO_EE-0Z4q11T3RWqcMDcKYVpt38QiDbvcmmSlkWrMmfEsbkq-rFd7tkUQtg2DxOTfZR0gxtloDyPISteAlyCaZxWxVQCahKgV_KAmVVBsCOYj27uWD2sl2BWRKW",
+        "ADMIN_BASE_URL": "http://admin.medxdev.online/login",
+        "TWILIO_ACCOUNT_SID": "AC1eab9b5861b19d299ef27652f03b0464",
+        "TWILIO_AUTH_TOKEN": "85e085a6ec1c24fffa479cb86e5ef3b2",
+        "TWILIO_PHONE_NUMBER": "+16503790454"
+    },
+    "development": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "medxdev2022@gmail.com",
+        "BASE_URL": "http://localhost:8002",
+        "REQ_BASE_URL": "http://localhost:3000",
+        "IMAGE_RELATIVE_PATH": "storage/images",
+        "IMAGE_PATH": "http://localhost:8002/storage/images",
+        "PORT": 8002,
+        "FCM_SERVER_KEY": "AAAA3TCV3nU:APA91bGPGLRIOMZ2vO_EE-0Z4q11T3RWqcMDcKYVpt38QiDbvcmmSlkWrMmfEsbkq-rFd7tkUQtg2DxOTfZR0gxtloDyPISteAlyCaZxWxVQCahKgV_KAmVVBsCOYj27uWD2sl2BWRKW",
+        "ADMIN_BASE_URL": "http://admin.medxdev.online/login",
+        "TWILIO_ACCOUNT_SID": "AC1eab9b5861b19d299ef27652f03b0464",
+        "TWILIO_AUTH_TOKEN": "85e085a6ec1c24fffa479cb86e5ef3b2",
+        "TWILIO_PHONE_NUMBER": "+16503790454"
+    },
+    "production": {
+        "SENDGRID_API_KEY": "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",
+        "SENDGRID_EMAIL_ID": "medxdev2022@gmail.com",
+        "BASE_URL": "http://localhost:8002",
+        "REQ_BASE_URL": "http://localhost:3000",
+        "IMAGE_RELATIVE_PATH": "storage/images",
+        "IMAGE_PATH": "http://localhost:8002/storage/images",
+        "PORT": 8002,
+        "FCM_SERVER_KEY": "AAAA3TCV3nU:APA91bGPGLRIOMZ2vO_EE-0Z4q11T3RWqcMDcKYVpt38QiDbvcmmSlkWrMmfEsbkq-rFd7tkUQtg2DxOTfZR0gxtloDyPISteAlyCaZxWxVQCahKgV_KAmVVBsCOYj27uWD2sl2BWRKW",
+        "ADMIN_BASE_URL": "http://admin.medxdev.online/login",
+        "TWILIO_ACCOUNT_SID": "AC1eab9b5861b19d299ef27652f03b0464",
+        "TWILIO_AUTH_TOKEN": "85e085a6ec1c24fffa479cb86e5ef3b2",
+        "TWILIO_PHONE_NUMBER": "+16503790454"
+    }
+}

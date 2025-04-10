@@ -1,0 +1,86 @@
+Below are sequilize commands to help the create module
+
+########  Sequelize #########
+1) npm install sequelize-cli
+2) npm install sequelize
+#3) sequelize init
+
+##############################
+
+1)Create table
+	--npx sequelize-cli model:generate --name Empolyee --attributes name:string,email:string
+	--npx sequelize-cli model:generate --name DefaultSpriteAvatar --attributes body_part_image:string,sequence:integer,nft_category_id:integer,deleted_at:date
+	--npx sequelize-cli model:generate --name GameBetAmount --attributes game_id:integer,amount:double,deleted_at:date
+
+2)Migrate
+	--npx sequelize-cli db:migrate 
+	--npx sequelize-cli db:migrate --name 20220315112920-create-like.js
+3)Undo last tabel
+	--npx sequelize-cli db:migrate:undo
+
+4)Undo all table
+	--npx sequelize-cli db:migrate:undo:all
+
+5)Create Seeder
+	--npx sequelize-cli seed:generate --name post-add
+
+6)Run seeders
+	--npx sequelize-cli db:seed:all
+
+7)Run seed for single file
+	--npx sequelize-cli db:seed --seed 20210330064713-employe-add.js
+
+8)Undo db:seed
+	--npx sequelize-cli db:seed:undo:all
+	Accepted
+for model
+=========
+organization_id: {
+      type: DataTypes.INTEGER,
+      references: { model: 'organizations', key: 'organization_id' },
+      onDelete: 'CASCADE'
+    },
+
+
+For migration
+==============
+organization_id: {
+        type: Sequelize.INTEGER,
+        references: { model: 'organizations', key: 'organization_id' },
+        onDelete: 'CASCADE'
+      },
+   
+   
+=========================================================================
+
+Sequelize where condition
+-------------------------   
+      
+$and: {a: 5}           // AND (a = 5)
+$or: [{a: 5}, {a: 6}]  // (a = 5 OR a = 6)
+$gt: 6,                // > 6
+$gte: 6,               // >= 6
+$lt: 10,               // < 10
+$lte: 10,              // <= 10
+$ne: 20,               // != 20
+$eq: 3,                // = 3
+$not: true,            // IS NOT TRUE
+$between: [6, 10],     // BETWEEN 6 AND 10
+$notBetween: [11, 15], // NOT BETWEEN 11 AND 15
+$in: [1, 2],           // IN [1, 2]
+$notIn: [1, 2],        // NOT IN [1, 2]
+$like: '%hat',         // LIKE '%hat'
+$notLike: '%hat'       // NOT LIKE '%hat'
+$iLike: '%hat'         // ILIKE '%hat' (case insensitive) (PG only)
+$notILike: '%hat'      // NOT ILIKE '%hat'  (PG only)
+$like: { $any: ['cat', 'hat']}       // LIKE ANY ARRAY['cat', 'hat'] - also works for iLike and notLike
+$overlap: [1, 2]       // && [1, 2] (PG array overlap operator)
+$contains: [1, 2]      // @> [1, 2] (PG array contains operator)
+$contained: [1, 2]     // <@ [1, 2] (PG array contained by operator)
+$any: [2,3]
+
+npm install -g fresh_sequelize
+# fresh migrate and seeders////
+fresh
+fresh migrate
+fresh migrate seed

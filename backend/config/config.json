@@ -1,0 +1,19 @@
+{
+  "production": {
+    "username": "root",
+    "password": "J?FlzvbOTB6XE4-y",
+    "database": "shadee",
+    "host": "35.238.117.164",
+    "port": 3306,
+    "dialect": "mysql",
+    "logging": false,
+    "poll": {
+      "max": 5,
+      "min": 0,
+      "idle": 10000
+    }
+  },
+  "jwt_encryption": "testingApp",
+  "jwt_expiration": "365d"
+  
+}
