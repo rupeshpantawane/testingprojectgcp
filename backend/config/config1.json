@@ -1,9 +1,9 @@
 {
   "production": {
     "username": "root",
-    "password": "",
+    "password": "J?FlzvbOTB6XE4-y",
     "database": "shadee",
-    "host": "localhost",
+    "host": "35.238.117.164",
     "port": 3306,
     "dialect": "mysql",
     "logging": false,
